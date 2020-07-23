@@ -15,7 +15,7 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `learning`, 'path', `javascript`, `react`]}
         />
-        <img style={{ padding: "0 40px 0 0" }} src="./profile-pic.jpg" alt="Mateus Serejo" />
+        <img style={{ padding: "0 40px 0 0" }} src="./profile-pic.jpg" alt="Mateus Guedelho" />
         <h2>
           Welcome to My Learning Path{" "}
           <span role="img" aria-label="wave emoji">
