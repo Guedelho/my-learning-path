@@ -34,7 +34,7 @@ function Bio() {
               }}
             />
             <p style={{ marginBottom: 0 }}>
-              Written by <strong>{author}</strong>
+              Written by <strong>{author}</strong>.
               {` `}
               <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
                 Follow me on Linkedin
