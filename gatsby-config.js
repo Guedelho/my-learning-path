@@ -4,7 +4,7 @@ module.exports = {
     title: `My Learning Path`,
     author: `Guedelho`,
     description: `A personal blog where I post things I've learned`,
-    siteUrl: `https://my-learning-path.netlify.com/`,
+    siteUrl: `https://my-learning-path.netlify.app/`,
     social: {
       linkedin: `mateus-guedelho`,
     },
