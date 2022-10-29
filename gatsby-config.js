@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     // edit below
     title: `My Learning Path`,
-    author: `Guedelho`,
+    author: `Mateus Guedelho`,
     description: `A personal blog where I post things I've learned`,
     siteUrl: `https://my-learning-path.netlify.app/`,
     social: {

@@ -38,7 +38,7 @@ function Bio() {
               React library.
               {` `}
               <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
-                Follow me on Twitter
+                Connect with me on LinkedIn
               </a>
             </p>
           </Container>
