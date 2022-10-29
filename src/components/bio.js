@@ -34,8 +34,8 @@ function Bio() {
               }}
             />
             <p>
-              My Learning Path blog. Written by <strong>{author}</strong>.
-              {` `}
+              Written by <strong>{author}</strong>.
+              <br />
               <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
                 Connect with me on LinkedIn
               </a>
