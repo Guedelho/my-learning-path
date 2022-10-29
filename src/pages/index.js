@@ -32,8 +32,8 @@ class IndexPage extends React.Component {
           <strong>***Teaching others is best way to learn.***</strong>
         </p>
         <p>
-          Now, let's go learn something new!
-          <span role="img" aria-label="rocket emoji">
+          Now, let's go learn something new!{" "}
+          <span style={{ fontSize: "20px" }} role="img" aria-label="rocket emoji">
             🚀
           </span>
         </p>
