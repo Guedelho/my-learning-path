@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
 
+import ProfilePic from "../../content/assets/profile-pic.jpg"
+
 class IndexPage extends React.Component {
   render() {
     const siteTitle = "My Learning Path"
@@ -15,7 +17,7 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <img style={{ margin: 0 }} src="./content/assets/profile-pic.jpg" alt="Mateus Guedelho" />
+        <img style={{ margin: 0 }} src={ProfilePic} alt="Mateus Guedelho" />
         <h1>
           Hey people{" "}
           <span role="img" aria-label="wave emoji">

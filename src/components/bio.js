@@ -34,12 +34,11 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong>, a framework built upon the
-              React library.
-              {` `}
+              Written by <strong>{author}</strong>.
               <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
                 Connect with me on LinkedIn
               </a>
+              .
             </p>
           </Container>
         )
