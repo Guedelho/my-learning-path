@@ -29,9 +29,14 @@ class IndexPage extends React.Component {
           In this blog, I'm going to post things I've learned. The goal is for me to learn more about a subject by teaching it and hopefully help others on their Learning Path.
         </p>
         <p>
-          <strong>*Teaching others is best way to learn.*</strong>
+          <strong>***Teaching others is best way to learn.***</strong>
         </p>
-        <p>Now, let's go learn something new!</p>
+        <p>
+          Now, let's go learn something new!
+          <span role="img" aria-label="rocket emoji">
+            🚀
+          </span>
+        </p>
         <Link to="/blog/">
           <Button marginTop="35px">Go to Blog</Button>
         </Link>
