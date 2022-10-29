@@ -15,7 +15,7 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
+        <img style={{ margin: 0 }} src="./content/assets/profile-pic.jpg" alt="Mateus Guedelho" />
         <h1>
           Hey people{" "}
           <span role="img" aria-label="wave emoji">
@@ -26,7 +26,9 @@ class IndexPage extends React.Component {
         <p>
           In this blog, I'm going to post things I've learned. The goal is for me to learn more about a subject by teaching it and hopefully help others on their Learning Path.
         </p>
-        <strong>*Teaching others is best way to learn.*</strong>
+        <p>
+          <strong>*Teaching others is best way to learn.*</strong>
+        </p>
         <p>Now, let's go learn something new!</p>
         <Link to="/blog/">
           <Button marginTop="35px">Go to Blog</Button>
