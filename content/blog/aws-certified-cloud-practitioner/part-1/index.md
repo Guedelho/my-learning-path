@@ -6,7 +6,7 @@ date: "2022-10-29T13:34:03.284Z"
 
 Welcome to the AWS Certified Cloud Practitioner blog series. In this series, we're going through all the domains you need to learn to get an AWS Cloud Practitioner certificate. We will follow the [Oficial AWS Certified Cloud Practitioner Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf) divided by domains:
 
-- Part 1: Cloud Concepts
+- **Part 1: Cloud Concepts**
 - Part 2: Security and Compliance 
 - Part 3: Technology
 - Part 4: Billing and Pricing
@@ -26,7 +26,7 @@ T﻿he Part 1 of this series will focus on Cloud Concepts and Fundamentals. Let'
      - Scalability
      - Global Reach
      - Economy of scale
-   - Explain how the AWS cloud allows users to focus on business value
+   - Explain how the AWS cloud allows customers to focus on business value
      - Shifting technical resources to revenue-generating activities as opposed to managing infrastructure
 2. Identify aspects of AWS Cloud economics
    - Define items that would be part of a Total Cost of Ownership proposal
@@ -47,15 +47,15 @@ T﻿he Part 1 of this series will focus on Cloud Concepts and Fundamentals. Let'
      - Think parallel
 
 
-Amazon Web Services provides on-demand cloud computing and APIs to users of all sizes on a pay-as-you-go basis. It allows the users to focus on business value, shifting technical resources to revenue-generating activities instead of managing infrastructure.
+Amazon Web Services provides on-demand cloud computing and APIs to customers of all sizes on a pay-as-you-go basis. It allows the customers to focus on business value, shifting technical resources to revenue-generating activities instead of managing infrastructure.
 
 #### AWS Cloud Foundational Services
 
-- Compute: Elastic Compute Cloud (EC2)
-- Database: Relational Database Service (RDS) and DynamoDB
-- Storage: Simple Storage Service (S3)
-- Networking: Virtual Private Cloud (VPC)
-- Security: Identity and Access Management (IAM)
+- **Compute**: Elastic Compute Cloud (EC2)
+- **Database**: Relational Database Service (RDS) and DynamoDB
+- **Storage**: Simple Storage Service (S3)
+- **Networking**: Virtual Private Cloud (VPC)
+- **Security**: Identity and Access Management (IAM)
 
 #### AWS Cloud Main Benefits
 - Security: Hundreds of engineers work to secure and maintain the infrastructure
@@ -68,7 +68,7 @@ Amazon Web Services provides on-demand cloud computing and APIs to users of all 
 - Pay-as-you-go Pricing: Only pay for what you use, and only when you need it
 - Economies Of Scale: Because of its size, AWS can purchase things more cheaply than an individual organization can
 
-In addition to all these benefits, AWS Cloud allows users to eliminate Capital Expenses (CapEx) and reduce Operational Expenses(OpEx). The user no longer needs to spend money on hardware or software licensing, and there are no costs associated with premises (to store the hardware) and power (to keep the hardware running). The user will only pay for what he needs when he uses it.
+In addition to all these benefits, AWS Cloud allows customers to eliminate Capital Expenses (CapEx) and reduce Operational Expenses(OpEx). The customer no longer needs to spend money on hardware or software licensing, and there are no costs associated with premises (to store the hardware) and power (to keep the hardware running). The customer will only pay for what he needs when he uses it.
 
 Having the right-size infrastructure, automating servers to start and stop, and having managed services will help to reduce operational expenses even more.
 
@@ -100,6 +100,6 @@ Moreover, to ensure reliable, secure, efficient, and cost-effective systems in t
 - Review [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
 
 
-That's it for Part 1 of this series. We covered all the Cloud Concepts and Fundamentals. In the next part, we will convert Security and Compliance.
+That's it for Part 1 of this series. We covered all the **Cloud Concepts and Fundamentals**. In the next part, we will convert **Security and Compliance**.
 
 See you 👍
