@@ -1,7 +1,7 @@
 ---
 title: AWS Certified Cloud Practitioner - Part 2
 description: Security and Compliance
-date: "2022-10-30T13:34:03.284Z"
+date: "2022-10-29T13:34:03.284Z"
 ---
 
 Welcome to the AWS Certified Cloud Practitioner blog series. In this series, we're going through all the domains you need to learn to get an AWS Cloud Practitioner certificate. We will follow the [Oficial AWS Certified Cloud Practitioner Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf) divided by domains:
@@ -11,7 +11,7 @@ Welcome to the AWS Certified Cloud Practitioner blog series. In this series, we'
 - Part 3: Technology
 - Part 4: Billing and Pricing
 
-T﻿he Part 2 of this series will focus on Security and Compliance. Let's go!
+The Part 2 of this series will focus on Security and Compliance. Let's go!
 
 ### Domain 2: Security and Compliance
 
@@ -108,52 +108,35 @@ Other important concepts are MFA and Access key:
 
 See more about the [Security, Identity, and Compliance on AWS](https://aws.amazon.com/products/security/).
 
-##### AWS Shield
+##### AWS SHIELD
 - Protects against DDoS attacks
-
-##### AWS Web Application Firewall (WAF)
+##### AWS WEB APPLICATION FIREWALL (WAF)
 - Controls incoming and outgoing traffic for applications and websites
 - Based on rules like "Block traffic from IP address X."
-
-##### AWS Key Management System (KMS)
+##### AWS KEY MANAGEMENT SYSTEM (KMS)
 - Primary service for encryption in AWS
 - AWS manages the encryption hardware, software, and keys for you
-
-##### AWS Hardware Security Module (CloudHSM)
+##### AWS HARDWARE SECURITY MODULE (CLOUDHSM)
 - AWS provisions the hardware, and you do everything else
-
-##### AWS Certificate Manager (ACM)
+##### AWS CERTIFICATE MANAGER (ACM)
 - Provision, manage and deploy SSL/TLS certificates
-
-##### AWS Secrets Manager
+##### AWS SECRETS MANAGER
 - Securely store and rotate secrets, such as a database name/password
-
-##### Amazon Macie
+##### AMAZON MACIE
 - Scans S3 for personally identifiable information (PII)
-
-##### Amazon Inspector
+##### AMAZON INSPECTOR
 - Monitors EC2 instances and ECR repositories for software vulnerabilities and network exposure
-
-##### Amazon GuardDuty
+##### AMAZON GUARDDUTY
 - Monitors AWS accounts, network, and S3 for malicious activity
-
-##### AWS Config
+##### AWS CONFIG
 - Inventory of resources and recording of configuration/changes
-
-##### AWS Security Hub
+##### AWS SECURITY HUB
 - Consolidated view of all things security (pulls from many other services into a dashboard)
 - Works for multiple accounts
-
-##### Amazon Detectives
+##### AMAZON DETECTIVES
 - Used to quickly get to the root cause of security issues
-
-##### Amazon Artifact
+##### AMAZON ARTIFACT
 - View AWS's internal compliance reports and agreements
-
-It is a lot of services to remember, but here are some important points.
-
-#### Important Points to Remember
-
 ##### SHARED RESPONSIBILITY MODEL
 - AWS is responsible for the security OF the cloud
 - Customer (you) are responsible for security IN the cloud
@@ -169,3 +152,5 @@ It is a lot of services to remember, but here are some important points.
 That's it for Part 2 of this series. We covered all the **Security and Compliance**. In the next part, we will convert **Technology**.
 
 See you 👍
+
+<small>Disclaimer: This series is based on the Zero to Mastery AWS Certified Cloud Practitioner Course</small>

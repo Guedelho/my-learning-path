@@ -1,7 +1,7 @@
 ---
 title: AWS Certified Cloud Practitioner - Part 1
 description: Cloud Concepts and Fundamentals
-date: "2022-10-29T13:34:03.284Z"
+date: "2022-10-28T13:34:03.284Z"
 ---
 
 Welcome to the AWS Certified Cloud Practitioner blog series. In this series, we're going through all the domains you need to learn to get an AWS Cloud Practitioner certificate. We will follow the [Oficial AWS Certified Cloud Practitioner Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf) divided by domains:
@@ -11,7 +11,7 @@ Welcome to the AWS Certified Cloud Practitioner blog series. In this series, we'
 - Part 3: Technology
 - Part 4: Billing and Pricing
 
-T﻿he Part 1 of this series will focus on Cloud Concepts and Fundamentals. Let's go!
+The Part 1 of this series will focus on Cloud Concepts and Fundamentals. Let's go!
 
 ### Domain 1: Cloud Concepts
 
@@ -87,9 +87,9 @@ Moreover, to ensure reliable, secure, efficient, and cost-effective systems in t
 ##### BENEFITS
 - Global reach: data centers around the world
 - High availability: continue functioning even when one component (server, data center, etc.) goes down
-- Cost savings: reduces up-front costs (“CapEx”) and ongoing costs (“OpEx”)
+- Cost savings: reduces up-front costs ("CapEx") and ongoing costs ("OpEx")
   - Only pay for what you use
-  - Right-sizing infrastructure means you don’t have to “guess” capacity
+  - Right-sizing infrastructure means you don’t have to "guess" capacity
   - Managed services reduce your IT overhead/spend
 
 ##### DESIGN PRINCIPLES
@@ -103,3 +103,5 @@ Moreover, to ensure reliable, secure, efficient, and cost-effective systems in t
 That's it for Part 1 of this series. We covered all the **Cloud Concepts and Fundamentals**. In the next part, we will convert **Security and Compliance**.
 
 See you 👍
+
+<small>Disclaimer: This series is based on the Zero to Mastery AWS Certified Cloud Practitioner Course</small>
