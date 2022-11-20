@@ -81,7 +81,7 @@ There're three ways to work with AWS:
 
 Three different types of deployment models:
 
-1. Cloud (Public) - Infrastructure available to general public on the internet
+1. Cloud (Public) - Infrastructure available to the general public on the internet
 2. Hybrid - Comprised of two or more clouds (private, public)
 3. On-Premises (Private) - Infrastructure solely for one organization
 
@@ -89,9 +89,9 @@ And two ways to use Hybrid deployment models:
 1. Site-to-Site VPN (Public internet)
 2. AWS Direct Connect (Private internet)
 
-The AWS Cloud spans 93 Availability Zones within 29 geographic regions around the world.
+The AWS Cloud spans 93 Availability Zones within 29 geographic regions worldwide.
 
-**Availability Zone**: A single data center or group of data centers within a region, each with redundant power, networking and connectivity, housed in separate facilities.
+**Availability Zone**: A single data center or group of data centers within a region, each with redundant power, networking, and connectivity, housed in separate facilities.
 
 **Edge Location**: A site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery
 
@@ -104,7 +104,7 @@ The AWS Cloud spans 93 Availability Zones within 29 geographic regions around th
   - From your local machine – both require access key IDs and secrets § SoftwareDeveloperKit(SDK)
     - CommandLineInterface(CLI)
   - AWS CloudShell
-    - Browser-based; doesn’t require access key ID
+    - Browser-based; doesn't require access key ID
 ##### DEPLOYMENT MODELS
 - Public cloud
 - On-premises
@@ -119,13 +119,13 @@ The AWS Cloud spans 93 Availability Zones within 29 geographic regions around th
 - Infrastructure as a service; YOU are responsible for operating systems, patching, access
 - Different pricing options (on-demand, reserved, spot, etc.)
 - SSH is a secure way to log into and administer remote computers
-- AWS Marketplace allows partners to market and sell their software to AWS customers
+- AWS Marketplace allows partners to market and sells their software to AWS customers
 ##### LOAD BALANCING AND AUTO-SCALING
-- Load balancing distributes load across multiple instances, across multiple availability zones (i.e., high availability)
+- Load balancing distributes the load across multiple instances, across multiple availability zones (i.e., high availability)
 - Auto-scaling automatically scales out/in instances based on the load ELASTIC BEANSTALK
 - Platform as a Service that allows you to "just write code"; all underlying work "magically" happens for you
 ##### AWS LIGHTSAIL
-- "AWS lite," used to create simple websites without having to understand all of the underlying infrastructure
+- "AWS lite," used to create simple websites without having to understand all of the underlying infrastructures
 - Interface quite different from "regular" AWS
 ##### AMAZON WORKSPACES
 - Desktops in the cloud
@@ -134,9 +134,9 @@ The AWS Cloud spans 93 Availability Zones within 29 geographic regions around th
 - Managed service that allows you to schedule jobs for processing (e.g., media encoding, deep learning, big data analytics)
 ##### AWS LAMBDA
 - Serverless functions or scripts
-- You’re responsible for security of your code, data, and IAM; AWS does everything else
+- You're responsible for the security of your code, data, and IAM; AWS does everything else
 ##### CONTAINERS
-- Light-weight compute that lets you package up everything needed to run an application (no dedicated operating system required); built on Docker technology
+- Light-weight computer that lets you package up everything needed to run an application (no dedicated operating system required); built on Docker technology
 - Services: Elastic Container Service (ECS) or Elastic Kubernetes Service (EKS)
 - Fargate is a serverless solution for running containers (creates EC2 instances for you)
 - Container images stored in Elastic Container Registry (ECR)
@@ -146,13 +146,13 @@ The AWS Cloud spans 93 Availability Zones within 29 geographic regions around th
 
 ##### SIMPLE STORAGE SERVICE (S3)
 - Inexpensive, unlimited, reliable object storage (think: files, photos, logs, etc.)
-- Storage classes let you optimize cost by storing data according to frequency of access
+- Storage classes let you optimize cost by storing data according to the frequency of access
   - e.g., S3 Glacier can be used to store data you rarely access, but it takes some time to retrieve
 - Versioning and object lock help prevent accidental deletion of objects
 - [S3 Storage Classes](https://aws.amazon.com/s3/storage-classes/)
 ##### ELASTIC BLOCK STORE (EBS)
 - Virtual hard drives for your EC2 instances
-- Can only be attached to one instance at a time; default is to delete them when an instance is terminated
+- Can only be attached to one instance at a time; the default is to delete them when an instance is terminated
 - Can create snapshots and then restore them (for backup/recovery purposes)
 ##### ELASTIC FILE SYSTEM (EFS)
 - Storage that can be used by multiple services (EC2, Lambda, on-premises servers, etc.)
@@ -163,7 +163,7 @@ The AWS Cloud spans 93 Availability Zones within 29 geographic regions around th
 - FSx for Lustre – high-performance file system
 - [Amazon FSx](https://aws.amazon.com/fsx/)
 ##### STORAGE GATEWAY
-- Used in a hybrid architecture, to store data in AWS from on-premises SNOW FAMILY OF PRODUCTS
+- Used in a hybrid architecture to store data in AWS from on-premises SNOW FAMILY OF PRODUCTS
 - Physical storage devices used to transfer massive amounts of data (Snowcone, Snowball, Snowmobile)
 - [AWS Snow Family](https://aws.amazon.com/snow/)
 
@@ -181,10 +181,10 @@ The AWS Cloud spans 93 Availability Zones within 29 geographic regions around th
 - Security groups control traffic at the EC2 instance level
 - VPC endpoints allow you to access other AWS services through a private network (vs. going across the public internet)
 ##### CLOUDFRONT
-- Content delivery network (CDN) that’s geographically distributed to delivery content faster by caching
+- Content delivery network (CDN) that's geographically distributed to deliver content faster by caching
 - Commonly used to deliver media files (videos, images)
 ##### GLOBAL ACCELERATOR
-- Uses global network of edge locations to improve speeds for a variety of applications
+- Uses a global network of edge locations to improve speeds for a variety of applications
 - Does not use caching; improvement comes from network routing of traffic (moving off
 the public internet)
 ##### ROUTE 53
@@ -212,18 +212,18 @@ the public internet)
 - Used for read-intensive web applications, such as gaming or media streaming
 ##### NEPTUNE
 - Graph database
-- Used for social media, fraud detection and recommendation engines
+- Used for social media, fraud detection, and recommendation engines
 
 
-#### About Anaytics
+#### About Analytics
 
 ##### ATHENA
 - Used to query data in S3 using SQL queries KINESIS FAMILY OF PRODUCTS
-- Used for stream or real-time processing of data (such as stock prices or video streaming)
+- Used for streaming or real-time processing of data (such as stock prices or video streaming)
 ##### QUICKSIGHT
 - Used for business intelligence/analytics to visualize your data using reports and dashboards
 ##### EMR (ELASTIC MAPREDUCE)
-- A hosted Hadoop framework that also supports Spark, Hive and Presto
+- A hosted Hadoop framework that also supports Spark, Hive, and Presto
 
 
 #### About Deploying/Managing Infrastructure
@@ -243,7 +243,7 @@ the public internet)
 #### About Monitoring
 
 ##### CLOUDWATCH
-- Used for performance monitoring of applications and resources • e.g., CPU, memory, disk, GPU utilization
+- Used for performance monitoring of applications and resources •, e.g., CPU, memory, disk, GPU utilization
 ##### CLOUDTRAIL
 - Captures user activity and API calls
   - e.g., who created an EC2 instance, who terminated an EC2 instance, who logged into the Console
@@ -262,12 +262,12 @@ the public internet)
 - Producer sends to the queue; consumer polls from the queue
 ##### SIMPLE NOTIFICATION SERVICE (SNS)
 - Send notifications by email, text, HTTP, Lambda
-- "Pub-sub" model where a publisher publishes to a SNS topic, and subscribers subscribe to receive notifications
+- "Pub-sub" model where a publisher publishes to an SNS topic, and subscribers subscribe to receive notifications
 ##### EVENTBRIDGE
 - Some features were formerly called CloudWatch Events
-- Used to built event-driven architectures (also a "pub-sub" model)
+- Used to build event-driven architectures (also a "pub-sub" model)
   - Subscribers set rules about what to receive
-  - Schemas defined up front
+  - Schemas defined upfront
   - Publishers can be third parties (e.g., Shopify, Zendesk)
   - Events can be scheduled
 
@@ -278,7 +278,7 @@ the public internet)
 - Free to all customers
   - AWS Trusted Advisor service quota checks, limited security checks
   - Use of AWS Personal Health Dashboard
-  - Access to whitepapers, documentation and support communities
+  - Access to whitepapers, documentation, and Support communities
 ##### DEVELOPER
 - For experimenting and testing
   - AWS Trusted Advisor service quota and security checks
@@ -314,4 +314,4 @@ That's it for Part 3 of this series. We covered all the **Technology**. In the n
 
 See you 👍
 
-<small>Disclaimer: This series is based on the Zero to Mastery AWS Certified Cloud Practitioner Course</small>
+<small>Disclaimer: This series was based on the Zero to Mastery AWS Certified Cloud Practitioner Course</small>

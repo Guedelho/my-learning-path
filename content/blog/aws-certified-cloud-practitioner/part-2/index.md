@@ -153,4 +153,4 @@ That's it for Part 2 of this series. We covered all the **Security and Complianc
 
 See you 👍
 
-<small>Disclaimer: This series is based on the Zero to Mastery AWS Certified Cloud Practitioner Course</small>
+<small>Disclaimer: This series was based on the Zero to Mastery AWS Certified Cloud Practitioner Course</small>

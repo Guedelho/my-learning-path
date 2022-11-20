@@ -38,11 +38,11 @@ and AWS Marketplace tools
 - Recognize that alarms/alerts exist
 - Identify how tags are used in cost allocation
 
-AWS offers you a pay-as-you-go approach for pricing for the vast majority of our cloud services. With AWS you pay only for the individual services you need, for as long as you use them, and without requiring long-term contracts or complex licensing. AWS pricing is similar to how you pay for utilities like water and electricity. You only pay for the services you consume, and once you stop using them, there are no additional costs or termination fees.
+AWS offers you a pay-as-you-go approach for pricing for the vast majority of our cloud services. With AWS, you pay only for the individual services you need for as long as you use them and without requiring long-term contracts or complex licensing. AWS pricing is similar to paying for utilities like water and electricity. You only pay for the services you consume, and once you stop using them, there are no additional costs or termination fees.
 - [AWS Billing and Cost Management Documentation](https://docs.aws.amazon.com/account-billing/index.html)
 
 ##### PRICING PLANS FOR EC2
-- On-demand is the easiest, but most expensive
+- On-demand is the easiest but most expensive
 - Spot instances allow you to bid on excess capacity (up to 90% savings), but instances can be terminated at any time
 - Reserved offers 30-60% savings for reservations of 1-3 years
 - Savings Plans combine on-demand and reserved; you receive savings on the commitment of 1-3 years and then get on-demand pricing after that
@@ -57,44 +57,44 @@ AWS offers you a pay-as-you-go approach for pricing for the vast majority of our
 - Provides a snapshot of costs by service, forecasted costs, etc. COST EXPLORER
 - Provides a way to drill into specific charges and group/filter by service, region, tags, etc.
 - Can provide a forecast of charges based on existing usage AWS PRICING CALCULATOR
-- Prior iterations were called the "Total Cost of Ownership" (TCO) Calculator and the "Simple Monthly Calculator"
+- Prior iterations were called the "Total Cost of Ownership" (TCO) Calculator and the "Simple Monthly Calculator."
 - Publicly available at calculator.aws
-- Provides an estimate of costs based on the services chosen (useful for existing customers, as well as those who are evaluating AWS)
+- Provides an estimate of costs based on the services chosen (helpful in existing customers, as well as those who are evaluating AWS)
 ##### AWS BUDGETS
 - Create and track budgets and send alerts
 - Alerts can be based on actual AND forecasted spend
 - Can filter alarms by region and service
-- Budgets can be created for cost, usage, Savings Plans and Reservations
+- Budgets can be created for cost, usage, Savings Plans, and Reservations
 ##### CLOUDWATCH BILLING ALERTS/ALARMS
 - Activated through Billing (not through CloudWatch)
 - More limited than Budgets; only used to send alerts
-- Alerts can only be based on actual spend (NOT forecasted)
+- Alerts can only be based on actual spending (NOT forecasted)
 - Filtering by region is not possible
 
-That's it for Part 4 (and final) of this series. We covered all the **Billing and Pricing**. With this, we've corvered all the content required for the exam.
+That's it for this series's Part 4 (and the final). We covered all the **Billing and Pricing**. With this, we've covered all the content required for the exam.
 
 #### Tips
 1. Read the questions carefully
-- Look for qualifier phrases such as "least expensive," or "with the least amount of effort"
+- Look for qualifier phrases such as "least expensive" or "with the least amount of effort."
 - There may be more than one correct answer
-2. You can usually eliminate two answers right away because they don’t make sense ("the distractors")
+2. You can usually eliminate two answers right away because they don't make sense ("the distractors")
 3. Correct answers:
 - Are usually simple
-- Usually involve an AWS managed service
-4. Make your first pass through all questions, answering things you’re sure of
+- Usually, involve an AWS-managed service
+4. Make your first pass through all questions, answering things you're sure of
 - Flag the others to come back to
 - Make a second pass on all questions if you have time
-- Sometimes a question later in the exam will help you remember an earlier answer Never leave a question unanswered - It will automatically be marked wrong - Guessing at least gives you a chance
+- Sometimes, a question later in the exam will help you remember an earlier answer. Never leave a question unanswered - It will automatically be marked wrong - Guessing at least gives you a chance
 - [Take the official practice exam](https://aws.amazon.com/certification/certification-prep/)
 
 #### What to Expect
 - ONLINE
-  - Check in 30 minutes prior to exam
+  - Check-in 30 minutes before exam
   - Required to run a system test (for video and audio)
   - Required to show ID
   - Required to show the proctor pictures/video of your surroundings
-  - Wired Internet connection recommended (you might not be able to resume if disconnected)
-  - Digital scratchpad provided in software Will be monitored via your web cam
+  - Wired Internet connection is recommended (you might not be able to resume if disconnected)
+  - Digital scratchpad provided in software Will be monitored via your webcam
 - AT A TESTING CENTER
   - Arrive early
   - Required to show ID
@@ -106,4 +106,4 @@ I hope you learned something new. Feel free to reach out to me with suggestions.
 
 See you 👍
 
-<small>Disclaimer: This series is based on the Zero to Mastery AWS Certified Cloud Practitioner Course</small>
+<small>Disclaimer: This series was based on the Zero to Mastery AWS Certified Cloud Practitioner Course</small>
